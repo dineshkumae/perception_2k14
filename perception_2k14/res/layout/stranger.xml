@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/on" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A team may consist of (a maximum of) 4 participants
+Teams must build a manual bot with a suitable throw mechanism capable of surviving on water and completing the given task.
+RULES
+
+There will be 2 rounds
+A maximum of 5 minutes will be given to traverse the arena.
+
+
+Movimento
+
+PROBLEM STATEMENT:
+
+Build a manual robot with hand mechanism and an autonomous robot which can follow black line in white surface.
+        "/>
+
+    
+
+</LinearLayout>
+</ScrollView>

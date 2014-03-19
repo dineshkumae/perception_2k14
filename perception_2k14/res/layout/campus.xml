@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ca" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ever wandered around the 100 acre campus of CET and wondered of numerous ways to improve it? Ever been at the SAC and thought of how if you had power, you would totally redefine the college? Ever thought of how you would channelize the water resources to create a brilliant garden around the campus or perhaps create an alternate source of energy to power all the labs of the college…or maybe go more technical and build up a network connecting all the classrooms, labs and create an online registry instead of the usual attendance sheets!"/>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cet" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Each team contains 2 students from any branch and year.
+
+Elimination Round
+This is the first part of the technical quiz competition. Based on this Elimination round, will select 8 teams for the final round. (4 teams from CET and 4 from others) Elimination Round contains 30 questions based on basic electronics and technology. Participants will get only 30 minutes to solve this. There will be no options for the questions and NO negatives marks. If TIE between teams, then the STAR marked questions will be considered.
+" />
+
+</LinearLayout>
+</ScrollView>

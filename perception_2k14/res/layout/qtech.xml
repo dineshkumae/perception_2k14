@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qtech" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q Technologico ~ Tech Know To , Tech Lo Ji!
+
+Spend your time thinking of how you'd have beaten Zuckerberg? Used to seeing the bemused look on friend's faces when you get all psyched up about an upcoming gadget release? Or love delving into the roots of computing? If it's technology that makes you tick, then you've arrived at the right place ... erm.. page! " />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qtech1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For, here at Q Technologico, you will encounter questions of various hues and shades, that'll test your tech and I.T knowledge to their limits, and leave you gasping for more." />
+
+</LinearLayout>
+</ScrollView>

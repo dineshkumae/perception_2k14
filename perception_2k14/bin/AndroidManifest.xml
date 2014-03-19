@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.perception2k14"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.perception2k14.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.perception2k14.Rob"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.ROB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.perception2k14.Sob"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.SOB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity	
+            android:name="com.example.perception2k14.List"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.LIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity	
+            android:name="com.example.perception2k14.Qtech"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.QTECH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity	
+            android:name="com.example.perception2k14.Robotics"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.ROBOTICS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity	
+            android:name="com.example.perception2k14.Software"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.SOFTWARE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.Acce"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.ACCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.Adi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.ADI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.App"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.APP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.Campus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.CAMPUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity	
+            android:name="com.example.perception2k14.Cet"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.CET" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity	
+            android:name="com.example.perception2k14.Code"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.CODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity	
+            android:name="com.example.perception2k14.Movi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.MOVI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.Paper"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.PAPER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         
+          <activity	
+            android:name="com.example.perception2k14.Res"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.RES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity	
+            android:name="com.example.perception2k14.Str"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.STR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity	
+            android:name="com.example.perception2k14.Web"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.WEB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity	
+            android:name="com.example.perception2k14.Face"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.FACE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity	
+            android:name="com.example.perception2k14.Goog"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.GOOG" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity	
+            android:name="com.example.perception2k14.Twi"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.TWI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity	
+            android:name="com.example.perception2k14.You"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.perception2k14.YOU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

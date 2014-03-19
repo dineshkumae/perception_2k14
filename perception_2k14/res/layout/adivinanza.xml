@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adi" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Does Sherlock Holmes fascinate you??? Spellbound by the way he cracks the cases???So for all the puzzle-lovers out there, presenting before you for the first time, ADIVINANZA-the all new ORDENADOR TECH RIDDLES aka riddles on computer jargons which you have to decode.... " />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/adi1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Right from hardware to software,this event is gonna churn up your technical brains!!! The prelims round will be a written one and the top 4 qualifying teams will compete in the 2nd round which is a rapid fire round." />
+
+</LinearLayout>
+</ScrollView>

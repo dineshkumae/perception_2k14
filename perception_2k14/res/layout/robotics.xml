@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/asdfg"
+     >
+
+    <Button
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Rescue Rangers" />
+
+    <Button
+        android:id="@+id/str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/res"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="On Stranger Tides" />
+
+    <Button
+        android:id="@+id/movi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/str"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Movimento" />
+
+    <Button
+        android:id="@+id/acce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Acceleration" />
+
+    <Button
+        android:id="@+id/cet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acce"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="CETronics" />
+
+</RelativeLayout>
